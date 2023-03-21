@@ -344,6 +344,9 @@ a {
   background: transparent;
   text-decoration: none;
 }
+a:hover {
+  cursor: pointer;
+}
 
 p {
   margin: 0;
@@ -358,7 +361,7 @@ body {
   header
 ===================== */
 .header {
-  background-image: url(../img/mainvisual-sp.jpg);
+  background-image: url(../img/mainvisual-sp-min.jpg);
   width: 100vw;
   height: 100vh;
   background-position: center center;
@@ -663,6 +666,9 @@ body {
 @media only screen and (min-width: 768px) {
   .mod-displayNone_desktop {
     display: none !important;
+  }
+  .header {
+    background-image: url(../img/mainvisual-pc-min.jpg);
   }
   .header .header_wrapper {
     padding: 60px 80px;
